@@ -1,0 +1,207 @@
+@CHARSET "UTF-8";
+body{
+	background-color:black;
+	font-family : DQFont;
+
+}
+.whiteheader{
+	width:100%;
+	height:100px;
+}
+
+.retrisbox{
+	width:422px;
+	height:572px;
+	border:solid 2px white;
+	margin:0 auto;
+
+}
+.firstbox{
+	width:180px;
+	height:120px;
+	position:absolute;
+	top:103px;
+	left:710px;
+	display:none;
+}
+.firstboxtwo{
+	position:absolute;
+	left:120px;
+	top:60px;
+}
+.secondbox{
+	width:180px;
+	height:120px;
+	position:absolute;
+	top:103px;
+	left:710px;
+	display:none;
+
+}
+.secondboxtwo{
+	position:absolute;
+	left:60px;
+	top:60px;
+
+}
+.thirdbox{
+	width:180px;
+	height:120px;
+	position:absolute;
+	top:103px;
+	left:710px;
+	display:none;
+}
+.thirdboxtwo{
+	position:absolute;
+	top:60px;
+	left:60px;
+}
+
+.fourthbox{
+	width:180px;
+	height:120px;
+	position:absolute;
+	top:103px;
+	left:710px;
+	display:none;
+}
+.fourthboxtwo{
+	position:absolute;
+	top:60px;
+	left:60px;
+}
+
+.fifthbox{
+	width:180px;
+	height:120px;
+	position:absolute;
+	top:103px;
+	left:710px;
+	display:none;
+}
+.fifthboxtwo{
+	position:absolute;
+	top:60px;
+	left:0px;
+}
+
+.sixthbox{
+	width:180px;
+	height:120px;
+	position:absolute;
+	top:103px;
+	left:710px;
+	display:none;
+}
+.sixthboxtwo{
+	position:absolute;
+	top:60px;
+	left:120px;
+}
+
+.seventhbox{
+	width:240px;
+	height:60px;
+	position:absolute;
+	top:103px;
+	left:680px;
+	display:none;
+}
+
+.nextbox{
+	width:64px;
+	height:64px;
+	border:2px solid white;
+	border-radius:3px;
+	position:absolute;
+	top:100px;
+	left:1015px;
+}
+
+img.nextfirstbox{
+	display:none;
+	width:100%;
+	height:100%;
+
+}
+
+img.nextsecondbox{
+	display:none;
+	width:100%;
+	height:100%;
+}
+
+img.nextthirdbox{
+	display:none;
+	width:100%;
+	height:100%;
+}
+
+img.nextfourthbox{
+	display:none;
+	width:100%;
+	height:100%;
+}
+
+img.nextfifthbox{
+	display:none;
+	width:100%;
+	height:100%;
+}
+.twoline{
+
+}
+.threeline{
+
+}
+.line{
+
+}
+img.logo{
+	display:none;
+	position:absolute;
+	top:440px;
+	left:650px;
+	width:301px;
+	height:207px;
+}
+.scorepoint{
+	display:none;
+	position:absolute;
+	bottom:350px;
+	left:900px;
+	color:white;
+}
+.scorebox{
+	position:absolute;
+	left:1015px;
+	top:170px;
+	border:2px solid white;
+	border-radius:5px;
+	width:100px;
+	height:30px;
+	color:white;
+}
+.startmessagebox{
+	position:absolute;
+	top:350px;
+	left:400px;
+
+
+}
+ img.startmessage{
+
+ }
+ .skipbox{
+ 	position:absolute;
+ 	bottom:50px;
+ 	right:10px;
+ 	color:white;
+ 	text-align:center;
+ }
+ img.skip{
+ 	width:100px;
+ 	height:56px;
+ }
+

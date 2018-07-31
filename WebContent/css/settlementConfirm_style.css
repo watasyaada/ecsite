@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+
+		.address_box{
+			border: 3px solid;
+			border-radius: 20px;
+			margin: 20px;
+			padding: 10px;
+		}
+
+		.address_table th {
+			text-align: left;
+		}
+
+		#box_narrow {
+			text-align: center;
+		}
+
+		.title_box{
+			width: 100%;
+			height: 80px;
+			text-align: center;
+		}
+
+		.submit_btn_box{
+			text-align : center;
+			float:left;
+			margin-left:60px;
+		}
+
+		.clear{
+		clear:both;
+		}
+
+
+
+		.submit_btn_box2{
+			text-align : center;
+			float:left;
+			margin-left:180px;
+		}
+
+
+

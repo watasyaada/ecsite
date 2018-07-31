@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+
+
+.box1{
+border: solid 3px;
+border-radius: 20px;
+margin: 20px;
+padding: 10px;
+}
+
+.formbox{
+	text-align : center;
+}
+
+.vertical-list-table{
+	margin : 0 auto;
+}
+
+table.vertical-list-table th{
+	text-align : left;
+}
+
+.error{
+	color:red;
+}
+
+
+
+.submit_btn_box{
+	float:left;
+	margin-left:40px;
+
+}
+
+
+.title{
+	font-size:30px;
+}
+
+#clear{
+clear:both;
+}
+
+

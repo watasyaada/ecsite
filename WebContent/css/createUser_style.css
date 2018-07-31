@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+
+
+.submit_btn_box{
+	text-align : center;
+}
+.little_text_size{
+	font-size:12px;
+}
+.title{
+	margin-top:30px;
+	font-size:30px;
+	text-align:center;
+}
+.subtext{
+	text-align:center;
+}
+table{
+	margin:0 auto;
+}
+
+.button_base{
+left:250px;
+top:30px;
+}
+
+.errormessage{
+	color:red;
+}
+
+.whitesubmitbox{
+	width:100%;
+	height:70px;
+}

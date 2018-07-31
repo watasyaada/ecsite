@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+
+h1{
+	text-align:center;
+}
+h3{
+	text-align:center;
+}
+h4{
+	text-align:center;
+}
+.border_box{
+	border: 3px solid;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 10px;
+}

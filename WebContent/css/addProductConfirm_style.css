@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+
+h1{
+	text-align:center;
+}
+img{
+	width: 200px;
+    height: 150px;
+}
+#parent {
+	overflow: hidden;
+	padding-top:40px;
+}
+#child_left{
+ 	float :left;
+  	width: 60%;
+}
+table{
+	float:right;
+	table-layout:fixed;
+	width:550px;
+}
+#child_right{
+ 	float :right;
+  	width: 30%;
+}
+td{
+	width:450px;
+	word-break : break-all;
+	 white-space: normal;
+
+}
+th{
+	width:100px;
+	word-break : break-all;
+	 white-space: normal;
+
+
+}
+.submit_btn{
+	text-align:center;
+	padding-top:10px;
+}
+.border_box{
+	border: 3px solid;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+

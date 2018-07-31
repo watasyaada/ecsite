@@ -1,0 +1,372 @@
+@CHARSET "UTF-8";
+
+body{
+	background-color:black;
+	color:white;
+	font-family : DQFont;
+}
+.whiteheader{
+	height:80px;
+	width:100%;
+}
+.main{
+	position:absolute;
+	top:80px;
+	background-image:url("../images/background_home_first.jpg");
+	background-size:contain;
+	width:1600px;
+	height:600px;
+	background-repeat:no-repeat;
+}
+
+.mainsecond{
+	display:none;
+	position:absolute;
+	top:80px;
+	background-image:url("../images/background_home_second.jpg");
+	background-size:contain;
+	width:1600px;
+	height:600px;
+	background-repeat:no-repeat;
+
+}
+
+img.firstranking{
+	/* 画像の大きさを決める
+	jsファイルで点滅、フェードインのあれをしてないのでやる*/
+	width:160px;
+	height:160px;
+}
+img.secondranking{
+	width:160px;
+	height:160px;
+}
+img.thirdranking{
+	width:160px;
+	height:160px;
+}
+.startminibox{
+	width:230px;
+	height:100px;
+	background-color:black;
+	position:absolute;
+	top:210px;
+	left:650px;
+}
+.startminiinner{
+	width:90%;
+	height:70%;
+	margin:0 auto;
+	margin-top:10px;
+	border-radius:5px;
+	color:white;
+	text-align:center;
+}
+/* スタートボックスはwid900px,hei450pxに */
+.startbox{
+	width:800px;
+	height:400px;
+	position:absolute;
+	top:100px;
+	left:180px;
+
+}
+.startinner{
+	width:90%;
+	height:90%;
+	color:white;
+	border-radius:10px;
+	margin:0 auto;
+	margin-top:10px;
+	text-align:center;
+}
+.battlebox{
+	display:none;
+	width:800px;
+	height:400px;
+	position:absolute;
+	top:100px;
+	left:180px;
+}
+.rankfirstbox{
+	width:30%;
+	height:100%;
+	float:left;
+	margin-left:3%;
+	text-align:center;
+
+}
+.ranksecondbox{
+	width:30%;
+	height:100%;
+	float:left;
+	margin-left:3%;
+	text-align:center;
+
+}
+.rankthirdbox{
+	width:30%;
+	height:100%;
+	float:left;
+	margin-left:3%;
+	text-align:center;
+
+}
+.firstselectbox{
+	height:30%;
+	width:25%;
+	float:left;
+	margin-top:3%;
+	margin-left:3%;
+	border:4px solid white;
+	border-radius:10px;
+}
+.secondselectbox{
+	display:none;
+	height:30%;
+	width:67%;
+	background-color:black;
+	float:left;
+	margin-top:3%;
+	margin-left:2%;
+	border:4px solid white;
+	border-radius:10px;
+}
+
+.keytop{
+	display:none;
+	position:absolute;
+	top:470px;
+	left:1190px;
+	width:27px;
+	height:27px;
+	cursor: pointer;
+	cursor: hand;
+}
+.keybottom{
+	display:none;
+	position:absolute;
+	top:532px;
+	left:1190px;
+	width:27px;
+	height:27px;
+	cursor: pointer;
+	cursor: hand;
+
+}
+.keybottomafter{
+	display:none;
+	position:absolute;
+	top:532px;
+	left:1190px;
+	width:27px;
+	height:27px;
+	cursor: pointer;
+	cursor: hand;
+
+}
+.rpgkeybottom{
+	display:none;
+	width:100%;
+	height:100%;
+}
+.actkeybottom{
+	display:none;
+	width:100%;
+	height:100%;
+}
+.puzkeybottom{
+	display:none;
+	width:100%;
+	height:100%;
+}
+.keybottomone{
+	width:100%;
+	height:100%;
+}
+.keybottomtwo{
+	width:100%;
+	height:100%;
+}
+.keybottomthree{
+	width:100%;
+	height:100%;
+}
+.keyleft{
+	display:none;
+	position:absolute;
+	top:502px;
+	left:1160px;
+	width:27px;
+	height:27px;
+	cursor: pointer;
+	cursor: hand;
+
+}
+.keyright{
+	display:none;
+	position:absolute;
+	top:502px;
+	left:1220px;
+	width:27px;
+	height:27px;
+	cursor: pointer;
+	cursor: hand;
+
+}
+.Abutton{
+	display:none;
+	position:absolute;
+	top:525px;
+	left:1520px;
+	width:35px;
+	height:35px;
+	border-radius:15px;
+	cursor: pointer;
+	cursor: hand;
+}
+.rpgafterAbutton{
+	display:none;
+	width:35px;
+	height:35px;
+	position:absolute;
+	top:525px;
+	left:1520px;
+	border:white solid 1px;
+	border-radius:15px;
+	background-color: rgba(33, 39, 98, 0);
+	border:1px solid rgba(0,0,0,0);
+	color:rgba(0,0,0,0);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.actafterAbutton{
+	display:none;
+	width:35px;
+	height:35px;
+	position:absolute;
+	top:525px;
+	left:1520px;
+	border:white solid 1px;
+	border-radius:15px;
+	background-color: rgba(33, 39, 98, 0);
+	border:1px solid rgba(0,0,0,0);
+	color:rgba(0,0,0,0);
+	cursor: pointer;
+	cursor: hand;
+}
+
+.puzafterAbutton{
+	display:none;
+	width:35px;
+	height:35px;
+	position:absolute;
+	top:525px;
+	left:1520px;
+	border:white solid 1px;
+	border-radius:15px;
+	background-color: rgba(33, 39, 98, 0);
+	border:1px solid rgba(0,0,0,0);
+	color:rgba(0,0,0,0);
+	cursor: pointer;
+	cursor: hand;
+}
+.Bbutton{
+	display:none;
+	width:35px;
+	height:35px;
+	position:absolute;
+	top:525px;
+	left:1455px;
+	border-radius:15px;
+	cursor: pointer;
+	cursor: hand;
+}
+.key{
+	width:20px;
+	height:20px;
+	float:right;
+	position:absolute;
+	top:225px;
+	left:40px;
+	color:white;
+	transform: rotate( -90deg );
+}
+.keyline{
+	width:40px;
+	float:left;
+	height:100%;
+}
+.genrebox{
+	padding-top:4px;
+	width:70%;
+	height:30%;
+	float:left;
+	color:white;
+}
+
+.namebox{
+	padding-top:4px;
+	width:100%;
+	height:30%;
+	float:left;
+	color:white;
+}
+.actrankbox{
+	display:none;
+	width:100%;
+	height:50%;
+}
+.rpgrankbox{
+	display:none;
+	width:100%;
+	height:50%;
+}
+.puzrankbox{
+	display:none;
+	width:100%;
+	height:50%;
+}
+.actnamebox{
+	display:none;
+	width:80%;
+	height:100%;
+	float:left;
+}
+.rpgnamebox{
+	display:none;
+	width:80%;
+	height:100%;
+	float:left;
+}
+.puznamebox{
+	display:none;
+	width:80%;
+	height:100%;
+	float:left;
+}
+input[type=radio].radionone {display: none;}
+
+.detailsbox{
+	width:100%;
+	height:38px;
+	font-size:30px;
+}
+img.icon{
+	height:30px;
+	width:200px;
+}
+img.large{
+	margin-top:50px;
+
+}
+.presstartbox{
+	margin-top:100px;
+}
+.presstartminibox{
+	font-size:10px;
+	margin-top:10px;
+}
+.flash{
+}

@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+
+table.vertical-list-table{
+	margin:auto;
+	float:left;
+	padding-top:40px;
+}
+table.vertical-list-table th{
+	text-align:left;
+	width:100px;
+}
+
+
+.error{
+	color:red;
+
+}
+h3{
+	text-align:center;
+	font-size:30px;
+}
+.file{
+	float:right;
+	padding-top:60px;
+}
+.submit_btn{
+	clear:both;
+	padding-top:10px;
+	text-align:center;
+}
+.table_box
+{
+	border: 3px solid;
+	border-radius: 20px;
+	margin: 10px;
+	padding: 10px;
+}
+

@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+
+.mypage {
+	text-align: center;
+}
+
+.submit_btn_box{
+      width:100px;
+	  height : 35px;
+      font-size:20px;
+      margin : 0 auto;
+      padding-right: 40px;
+}
+
+table.vertical-list-table{
+      font-size : 20px;
+      width: 650px;
+}
+
+.info {
+	border: 3px solid;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	margin: 10px;
+	width: auto;
+
+}
+
+#sub_title {
+	text-align: center;
+}
+
+
+.button_base {
+    margin-left: -60px;
+    margin-top:30px;
+    top:-20px;
+}
+
+

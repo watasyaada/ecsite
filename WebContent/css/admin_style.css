@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+
+.vertical-list-table{
+	margin:auto;
+	border-radius :10px white;
+	border : 10px white;
+	border-collapse: collapse;
+
+}
+
+.submit_btn_column{
+	text-align:center;
+	width:100px
+}
+#text-link{
+	text-align:center;
+
+}
+
+h3{
+	text-align:center;
+}
+
+.description_column{
+	width:600px;
+	padding-left:30px;
+	word-break : break-all;
+}
+.image_column{
+	padding-left:15px;
+}
+.table_box{
+			border: 3px solid ;
+			border-radius: 20px;
+			margin: 20px;
+			padding: 10px;
+		}

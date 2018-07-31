@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+
+
+
+.box1{
+border: solid 3px;
+border-radius: 20px;
+margin: 20px;
+padding: 10px;
+}
+
+table.vertical-list-table{
+margin:auto;
+}
+
+.title{
+	font-size:30px;
+	text-align:center;
+	margin-top:30px;
+}
+
+.submit_btn_box{
+text-align:center;
+float:left;
+margin-left:50px;
+}
+
+.clear{
+clear:both;
+}
+
+
